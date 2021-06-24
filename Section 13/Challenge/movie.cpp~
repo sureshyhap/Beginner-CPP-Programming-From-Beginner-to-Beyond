@@ -1,0 +1,5 @@
+#include "movie.h"
+
+Movie::Movie(std::string name, std::string rating, int times_watched) {
+
+}

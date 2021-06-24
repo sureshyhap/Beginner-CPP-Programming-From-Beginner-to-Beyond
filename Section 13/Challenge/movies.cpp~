@@ -1,0 +1,5 @@
+#include "movies.h"
+
+void Movies::add_movie(const std::string& name, const std::string& rating, int times_watched) {
+  
+}
