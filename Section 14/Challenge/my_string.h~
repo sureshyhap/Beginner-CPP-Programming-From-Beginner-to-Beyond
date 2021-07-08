@@ -1,0 +1,13 @@
+class My_String {
+ public:
+  My_String();
+  My_String(const My_String& ms);
+  My_String(Mystring&& ms);
+  ~My_String();
+  My_String& operator=(const My_String& ms);
+  My_String& operator=(My_String&& ms);
+  const char* get_str() const;
+  void set_str(const char* c);
+ private:
+  char* str = nullptr;
+};
