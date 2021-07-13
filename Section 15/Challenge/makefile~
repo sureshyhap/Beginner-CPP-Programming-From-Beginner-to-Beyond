@@ -1,0 +1,5 @@
+main: main.o Account.o Account_Util.o Savings_Account.o Checking_Account.o Trust_Account.o
+	g++ -o main main.o Account.o Account_Util.o Savings_Account.o Checking_Account.o Trust_Account.o
+Account.o: Account.cpp Account.h
+	g++ -c Account.cpp
+Account_Util.o: 
