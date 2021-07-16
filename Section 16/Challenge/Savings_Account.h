@@ -3,7 +3,7 @@
 #include "Account.h"
 
 class Savings_Account: public Account {
-    friend std::ostream &operator<<(std::ostream &os, const Savings_Account &account);
+  //    friend std::ostream &operator<<(std::ostream &os, const Savings_Account &account);
 private:
     static constexpr const char *def_name = "Unnamed Savings Account";
     static constexpr double def_balance = 0.0;

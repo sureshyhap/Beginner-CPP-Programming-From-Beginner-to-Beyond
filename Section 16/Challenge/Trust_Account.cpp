@@ -22,9 +22,11 @@ bool Trust_Account::withdraw(double amount) {
     }
 }
 
+/*
 std::ostream &operator<<(std::ostream &os, const Trust_Account &account) {
     return os;
 }
+*/
 
 std::ostream& Trust_Account::print(std::ostream& os) const {
   /////////  return Savings_Account::print(os) << "Number of Withdrawals: " << num_withdrawals << '\n';
