@@ -1,0 +1,10 @@
+#include <iostream>
+#include <fstream>
+
+void read_file(std::string file_name) {
+    //---- YOU WRITE YOUR CODE BELOW THIS LINE----
+
+  
+   
+    //---- YOU WRITE YOUR CODE ABOVE THIS LINE----
+}

@@ -1,0 +1,14 @@
+#ifndef _FILENNOTFOUNDERROR_
+#define _FILENNOTFOUNDERROR_
+
+#include <exception>
+
+class FileNotFoundError : std::exception {
+  FileNotFoundError() noexcept = default;
+  ~FileNotFoundError() = default;
+  virtual const char* what() const noexcept override {
+    return "File Not Found";
+  }
+};
+
+#endif // _FILENNOTFOUNDERROR_

@@ -1,0 +1,6 @@
+challenge: challenge.o FileNotFoundError.o
+	g++ -o challenge challenge.o FileNotFoundError.o
+challenge.o: challenge.cpp
+	g++ -c challenge.cpp
+FileNotFoundError.o: FileNotFoundError.cpp
+	g++ -c FileNotFoundError.cpp
